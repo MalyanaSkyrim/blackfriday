@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/MalyanaSkyrim/blackfriday.svg?branch=master?style=flat)](https://travis-ci.com/MalyanaSkyrim/blackfriday)
+[![Build Status](https://travis-ci.com/MalyanaSkyrim/blackfriday.svg?style=flat)](https://travis-ci.com/MalyanaSkyrim/blackfriday)
 [![codecov](https://img.shields.io/codecov/c/github/MalyanaSkyrim/blackfriday.svg)](https://codecov.io/gh/MalyanaSkyrim/blackfriday/branch/master)
 
 Black Friday Test
