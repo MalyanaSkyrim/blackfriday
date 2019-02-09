@@ -1,5 +1,5 @@
-[![Build Status](https://img.shields.io/travis/embenzekri/blackfriday.svg?style=flat)](https://travis-ci.org/embenzekri/blackfriday)
-[![codecov](https://img.shields.io/codecov/c/github/embenzekri/blackfriday.svg?style=flat)](https://codecov.io/gh/embenzekri/blackfriday/branch/master)
+[![Build Status](https://img.shields.io/travis/embenzekri/blackfriday.svg?style=flat)](https://travis-ci.com/MalyanaSkyrim/blackfriday)
+[![codecov](https://img.shields.io/codecov/c/github/embenzekri/blackfriday.svg?style=flat)](https://codecov.io/gh/MalyanaSkyrim/blackfriday/branch/master)
 
 Black Friday Test
 -----
