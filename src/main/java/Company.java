@@ -1,20 +1,35 @@
 public class Company {
+
+    private Stock stock = new Stock();
+    private TemplateSellOperation sellOperation;
+
+    public Company(){
+        sellOperation = new SellOperation();
+    }
+
+
     public int totalAssets() {
-        return 20;
+        System.out.println();
+        return stock.getTotalAssets();
     }
 
-    public void stock(int i, String capsule, int i1) {
+    public void stock(int quantity, String name, int price) {
+        stock.addProductTostock(quantity,name,price);
     }
 
-    public float sells(String capsule) {
-        return 0;
+    public float sells(String productName) {
+
+        return sellOperation.sellsProduct(stock,productName);
     }
 
-    public Company blackFriday() {
+    public Company blackFriday()
+    {
+        sellOperation = new SellOperationBlackFriday();
         return this;
     }
 
-    public Object salesHistory() {
+    public Object salesHistory()
+    {
         return null;
     }
 }

@@ -25,7 +25,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(20));
     }
 
-    //@Test
+    @Test
     public void twoProductsInStock() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
@@ -36,7 +36,7 @@ public class BlackFridayTest {
     /*
         The company can sell a given product at a fixed quantity of 5, the price margin of each sale is 20%
      */
-    //@Test
+    @Test
     public void sellsProduct() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
@@ -45,7 +45,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(22));
     }
 
-    //@Test
+    @Test
     public void sellsProducts() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
@@ -76,7 +76,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(24));
     }
 
-    //@Test
+    @Test
     public void sellsDifferentProducts() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
@@ -88,7 +88,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(622));
     }
 
-    //@Test(expected = RuntimeException.class)
+    @Test(expected = RuntimeException.class)
     public void sellsMoreThanStock() {
         Company company = new Company();
         company.stock(5, "capsule", 2);
@@ -101,7 +101,7 @@ public class BlackFridayTest {
     /*
         In Black friday the sells are 2 times higher, but the price margin is only 10%
      */
-    //@Test
+    @Test
     public void blackFridaySellProduct() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
@@ -111,7 +111,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(522));
     }
 
-    //@Test
+    @Test
     public void blackFridaySellProducts() {
         Company company = new Company();
         company.stock(10, "capsule", 2);
