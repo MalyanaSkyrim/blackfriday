@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.com/MalyanaSkyrim/blackfriday.svg?style=flat)](https://travis-ci.com/MalyanaSkyrim/blackfriday)
-[![codecov](https://img.shields.io/codecov/c/github/MalyanaSkyrim/blackfriday.svg?style=flat)](https://codecov.io/gh/MalyanaSkyrim/blackfriday/branch/master)
+[![Build Status](https://travis-ci.com/MalyanaSkyrim/dishProject.svg?style=flat)](https://travis-ci.com/MalyanaSkyrim/dishProject)
+[![codecov](https://img.shields.io/codecov/c/github/MalyanaSkyrim/dishProject.svg?style=flat)](https://codecov.io/gh/MalyanaSkyrim/dishProject/branch/master)
 
 Black Friday Test
 -----
