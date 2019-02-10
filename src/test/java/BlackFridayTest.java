@@ -56,7 +56,7 @@ public class BlackFridayTest {
         assertThat(company.totalAssets(), is(24));
     }
 
-    //@Test
+    @Test
     public void sellsWithProxy() {
         Company company = new Company();
         company.stock(10, "capsule", 2);

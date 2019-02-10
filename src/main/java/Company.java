@@ -1,10 +1,12 @@
 public class Company {
 
     private Stock stock = new Stock();
-    private TemplateSellOperation sellOperation;
+    private ProxySalesHistory proxySalesHistory;
 
     public Company(){
-        sellOperation = new SellOperation();
+        TemplateSellOperation sellOperation = new SellOperation();
+        proxySalesHistory = new ProxySalesHistory(sellOperation);
+
     }
 
 
@@ -19,17 +21,20 @@ public class Company {
 
     public float sells(String productName) {
 
-        return sellOperation.sellsProduct(stock,productName);
+        return proxySalesHistory.sellsProduct(stock,productName);
     }
 
     public Company blackFriday()
     {
-        sellOperation = new SellOperationBlackFriday();
+        TemplateSellOperation sellOperation = new SellOperationBlackFriday();
+        proxySalesHistory = new ProxySalesHistory(sellOperation);
         return this;
     }
 
-    public Object salesHistory()
+    public String salesHistory()
     {
-        return null;
+
+
+        return proxySalesHistory.getSaleHistory();
     }
 }
